@@ -2,6 +2,7 @@
   "name": "human-filesize",
   "description": "Converts bytes to human readable format",
   "main": "human-filesize.html",
+  "version": "1.0.2",
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0"
   },
