@@ -11,3 +11,7 @@ jobs:
           fetch-depth: 1
       - name: Run ESLint
         uses: stefanoeb/eslint-action@1.0.0
+      - name: validate-license-action
+        uses: datreeio/validate-license-action@v1.0.0
+        with:
+          licenses: MIT, BSD-2, BSD-3
